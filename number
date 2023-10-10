@@ -1,0 +1,19 @@
+xercice 37.algo
+Algorithme maximuma
+Variables
+Tableau T (10): entier
+i: entier
+max : réel
+Début
+Pour i <-- 0 à 9 pas 1 faire
+Ecrire ("Donner l'élément ", i+I, : ")
+Lire (T(i))
+fin Pour
+max <-- T (0)
+Pour i <-- 1 à 9 pas 1 faire
+Si max < T(i) alors
+max <-- T(i)
+fin Si
+fin Pour
+Ecrire ("Le maximum des élément esta , max )
+Fin
